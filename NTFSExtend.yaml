@@ -6,6 +6,7 @@
 name: NTFSExtend
 doc: |
   The NTFS $Extend metadata files.
+  github.com/booyah26
   v0.1 - 27 Aug 2020
 
   GRR collection note: you currently need to specify 'use tsk'
