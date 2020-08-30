@@ -1,5 +1,5 @@
 # NTFS specific artifact.
-# Used to add NTFS USN Jrnl artifact capability to GRR
+# Used to add NTFS USN Journal artifact capability to GRR
 # Will extract the entire $Extend folder.
 
 
