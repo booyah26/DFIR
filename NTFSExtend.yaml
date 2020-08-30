@@ -1,0 +1,20 @@
+# NTFS specific artifact.
+# Used to add NTFS USN Jrnl artifact capability to GRR
+# Will extract the entire $Extend folder.
+
+
+name: NTFSExtend
+doc: |
+  The NTFS $Extend metadata files.
+  v0.1 - 27 Aug 2020
+
+  GRR collection note: you currently need to specify 'use tsk'
+  for this artifact to work.
+sources:
+- type: FILE
+  attributes:
+    paths:
+    - '%%environ_systemdrive%%\$Extend\**'
+    separator: '\'
+labels: [System]
+supported_os: [Windows]
