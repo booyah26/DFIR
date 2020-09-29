@@ -2,7 +2,7 @@
 
 # Made to retrieve PCAPs from SO Forward Nodes
 # Written by booyah26
-# Version 0.3
+# Version 0.4
 # 29 Sep 20
 
 # Use a linux or kali machine for this script
