@@ -33,44 +33,19 @@ localFolder4=Scratch/node4
 localFolder5=Scratch/node5
 
 cd ~
-
-#Make Scratch directory
-mkdir Scratch
-
-#Make node directories
-mkdir Scratch/node1
-mkdir Scratch/node2
-mkdir Scratch/node3
-mkdir Scratch/node4
-mkdir Scratch/node5
+#Make Scratch & node directories
+mkdir -p ~/Scratch/{node1,node2,node3,node4,node5}
 
 #Make directories for Node 1 interfaces
-mkdir $localFolder1/ens161
-mkdir $localFolder1/ens224
-mkdir $localFolder1/ens256
+mkdir $localFolder1/{ens161,ens224,ens256}
 #Make directories for Node 2 interfaces
-mkdir $localFolder2/ens161
-mkdir $localFolder2/ens193
-mkdir $localFolder2/ens224
-mkdir $localFolder2/ens225
-mkdir $localFolder2/ens256
-mkdir $localFolder2/ens257
+mkdir $localFolder2/{ens161,ens193,ens224,ens225,ens256,ens257}
 #Make directories for Node 3 interfaces
-mkdir $localFolder3/ens161
-mkdir $localFolder3/ens224
-mkdir $localFolder3/ens256
+mkdir $localFolder3/{ens161,ens224,ens256}
 #Make directories for Node 4 interfaces
-mkdir $localFolder4/ens161
-mkdir $localFolder4/ens193
-mkdir $localFolder4/ens224
-mkdir $localFolder4/ens256
+mkdir $localFolder4/{ens161,ens193,ens224,ens256}
 #Make directories for Node 5 interfaces
-mkdir $localFolder5/ens161
-mkdir $localFolder5/ens193
-mkdir $localFolder5/ens224
-mkdir $localFolder5/ens225
-mkdir $localFolder5/ens256
-
+mkdir $localFolder5/{ens161,ens193,ens224,ens225,ens256}
 
 # There are ways to hardcode an ssh password, but for security & best-practice I have avoided it here because the password is simple anyway
 # Possible to retrieve multiple files/directories in one command, but can only drop them into a single folder.
