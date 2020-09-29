@@ -34,6 +34,9 @@ localFolder5=Scratch/node5
 
 cd ~
 
+#Make Scratch directory
+mkdir Scratch
+
 #Make node directories
 mkdir Scratch/node1
 mkdir Scratch/node2
